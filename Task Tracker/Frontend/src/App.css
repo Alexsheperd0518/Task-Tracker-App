@@ -1,0 +1,155 @@
+/* body */
+body{
+  margin: 0px;
+  padding: 0px;
+  background-attachment: fixed;
+  background-image: linear-gradient(hotpink,dodgerblue, rgba(45, 168, 45, 0.795));
+}
+
+
+
+/* top part */
+/* Responsive Container */
+.Container {
+  border-radius: 15px;
+  max-width: 650px;
+  width: 90%; /* Responsive width */
+  padding: 12px;
+  margin: 3% auto;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Adjust padding/margins for smaller screens */
+@media (max-width: 480px) {
+  .Container {
+    padding: 8px;
+    border-radius: 10px;
+  }
+}
+
+/* top section */
+.Top-Section{
+  padding-top: 15px;
+  padding-left: 20px;
+  margin: auto;
+  color: white;
+  border-radius: 15px;
+  text-shadow: 2px 2px 10px rgb(42, 114, 223);
+  background-image: linear-gradient(to right, rgb(16, 194, 225), rgba(127, 16, 225, 0.648));
+}
+
+.Top-Section h1{
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Top-Section p{
+  margin: -10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+
+/* middle part */
+/* list container */
+.Container-List{
+  margin: 10px;
+}
+
+.Container-List h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Container-List p{
+  font-size: 1rem;
+  margin-top: -10px;
+}
+
+/* task list 1 */
+.Task-List-1{
+  border-radius: 8px;
+  border: 1px solid silver;
+}
+
+/* task list 2 */
+.Task-List-2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* edit-input-field */
+.Input-Modification{
+  width: 294px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+/* edit-button */
+.Edit-Button{
+  padding: 6px 21px;
+  margin-right: -10px;
+}
+
+/* delete-button */
+.Delete-Button{
+  padding: 6px 12px;
+  margin-right: -10px;
+}
+
+/* save-button */
+.Save-Button{
+  padding: 6px 17px;
+  margin-top: 5px;
+  margin-left: 70px;
+  
+}
+
+/* cancel-button */
+.Cancel-Button{
+  padding: 6px 15px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+
+
+/* bottom part */
+/* add task button adjustment*/
+.Add-Task-Button {
+  gap: 15px;
+  display: flex;
+}
+
+/* button modification */
+  .button-modified{
+    margin-left: 12px;
+    padding: 8px;
+    font-weight: 600;
+    border: 2px solid dodgerblue;
+  }
+
+  button[type="submit"]:hover{
+    border-color: dodgerblue;
+    box-shadow: 0 0 15px 0 dodgerblue;
+  }
+
+
+/* input field */
+.Input-Field{
+  width: 470px;
+}
+
+.Input-Field input{
+  width: 470px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
